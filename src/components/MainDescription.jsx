@@ -1,9 +1,11 @@
-export default function MainDescription({ display, text }) {
+
+export default function MainDescription({ text }) {
+
     return (
         <>
-            {display && <div className="description-text">
+
                 <p>{text}</p>
-            </div>}
+
         </>
     )
 }

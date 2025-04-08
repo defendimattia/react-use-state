@@ -1,4 +1,4 @@
-export default function MainButton({ obj }) {
+export default function MainButton({ obj, onClick }) {
 
-    return (<button >{obj.title}</button>)
+    return (<button onClick={onClick}>{obj.title}</button>)
 }
