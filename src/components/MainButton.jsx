@@ -1,3 +1,3 @@
-export default function MainButton() {
-    return <button></button>
+export default function MainButton({ obj }) {
+    return <button>{obj.title}</button>
 }
